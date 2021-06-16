@@ -162,7 +162,7 @@ export default () => {
                                             vai te ajudar do entreterimento ao conhecimento.
                                         </p>
                                     <div class="btn-more">
-                                        <a href="http://oquefazerna-quarentena.surge.sh/index.html/" target="_blank">
+                                        <a href="http://oquefazerna-quarentena.surge.sh/index.html" target="_blank">
                                             Confira    
                                         </a>                           
                                     </div>
