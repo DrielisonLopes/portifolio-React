@@ -1,0 +1,196 @@
+$darkMode:#0D0D0D;
+$primaryColor: #1155a3 ;
+$secondaryColor: #F2F2F2;
+$thirdColor: #fff ;
+$fourthColor: #D0D3D9;
+$fontColor: rgba(0,0,0,1);
+$success:#32CD32 ;
+
+header{
+    width:100%;
+    height:100vh;
+}
+
+.bg-header{
+    height:100%;
+    width: 100%;
+    padding: 1.8rem 0;
+    background-image: url('../../assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 97%;
+    position: relative;
+}
+
+.list .listNetworks{
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+        border-top: $secondaryColor solid 1px;
+        justify-content: space-evenly;  
+
+        & li{
+            margin: 0 ;
+        }
+    }
+    @media (max-width:260px){
+            flex-direction: column;
+        }
+        @media (min-width: 769px){
+            border-left: $secondaryColor solid 1px;
+            justify-content: space-between;
+        }
+}
+
+nav ul h1 a{
+    font-weight: bold;
+    color:$secondaryColor;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+    &:hover{
+        color: $secondaryColor;
+    }
+}
+nav ul h1{
+    margin: 5px -2rem;
+}
+
+.hamburger{
+    cursor: pointer;
+    display:none;
+    height: 25px;
+    width: 25px;
+    color: $secondaryColor ;
+    position: relative;
+    top: 10px;
+    right:10px;
+    @media screen and (max-width: 768px){
+        display:block  !important;
+    }
+}
+
+.hamburger:active {
+    outline: solid 1px $secondaryColor;
+}
+
+nav {
+    position: fixed;
+    top:0;
+    width:100%;
+    transition: .5s ;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1 !important;
+        @media screen and (max-width: 768px){
+            height:45px;
+        }
+}
+
+.listBg{
+    display:flex;
+    align-items: center;
+    @media screen and (max-width: 768px){
+        height: 100vh;
+        width: 100%;
+        z-index: 3;
+        position: absolute;
+        display:flex;
+    }
+}
+
+nav li{
+    @media (min-width: 769px){
+        margin: auto 0
+    }
+}
+
+.active{
+    @media screen and (max-width: 768px){
+        left: 0
+    }
+}
+
+.scroll-nav .active, .scroll-nav .list{
+    background:$primaryColor;
+}
+
+.scroll-nav  {
+    background:$primaryColor;
+}
+
+// Dark mode
+.darkNav .scroll-nav .active, .darkNav .scroll-nav .list{
+    background:$darkMode;
+}
+
+.darkNav .scroll-nav  {
+    background:$darkMode;
+}
+
+.darkNav a, .darkNav .hamburger{
+    color: $fourthColor
+}
+
+.scroll-nav .list{
+    @media (min-width: 769px){
+    background: none !important;
+    }
+}
+
+.scroll-nav h1 a, .scroll-nav .hamburger{
+    color: $secondaryColor !important
+}
+
+nav ul{ 
+    width:100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    transition: .4s;
+    height:100%;
+    background: rgba(1, 117, 250, 0.459);
+    margin: 0;
+}
+
+.list{
+    display: flex;
+    text-align: center;
+    padding:  0;
+    margin: 0;   
+    list-style: none;
+    text-decoration: none;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+nav ul li{
+    padding: 0 20px;
+    @media screen and (max-width: 768px){
+        padding: 10px !important;
+    }
+}
+
+nav li a{
+    font-size: 1.125em;
+    font-family: 'Oswald',Arial;
+    padding: 5px;
+    transition: .2s;
+    color : $thirdColor;
+    &:hover{
+        color: $thirdColor
+    }
+}
+.contact-img{
+    color: $secondaryColor;
+    height: 30px;
+    width: 30px;
+    margin:10px
+}
+
+nav ul .listNetworks li{
+    padding:5px
+}
