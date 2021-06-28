@@ -188,8 +188,11 @@ export default () => {
                             </div>
                     
                 </div>
-                    <div class="link"><a href="https://cabidenudebrecho.com.br/" target="_blank">👨‍💻 e-commerce onde participei como Freelancer</a></div>
-                    <div class="link"><a href="https://www.linkedin.com/posts/drielison-lopes_setup-investidores-sonhos-activity-6791744870865285120-3u7D" target="_blank">📝 Artigo: O quanto você tem investido nos seus sonhos?</a></div>
+                    <div class="extra-links">
+                        <div class="link"><a href="https://cabidenudebrecho.com.br/" target="_blank">👨‍💻 e-commerce onde participei como Freelancer</a></div>
+                        <div class="link"><a href="https://www.linkedin.com/posts/drielison-lopes_setup-investidores-sonhos-activity-6791744870865285120-3u7D" target="_blank">📝 Artigo: O quanto você tem investido nos seus sonhos?</a></div>
+                        <div class="link"><a href="https://www.notion.so/Resumo-React-310d3604856f4c97ac4ca66154ff29ef" target="_blank">⚛ Resumo que fiz sobre React</a></div>
+                    </div>
                 </div>            
             </section>
         </>
