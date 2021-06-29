@@ -203,8 +203,8 @@ export default () => {
                     </div>
                 </div>
                     <br/>
-                    MINHAS SKILLS
-                    <br/>
+                    <p class="card-title">MINHAS SKILLS</p>
+                    
                 <div class="icons">
                     <img src={icon1} alt={"icon1"}/>
                     <img src={icon2} alt={"icon2"}/>

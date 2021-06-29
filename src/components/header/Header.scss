@@ -3,8 +3,6 @@ $primaryColor: #1155a3 ;
 $secondaryColor: #F2F2F2;
 $thirdColor: #fff ;
 $fourthColor: #D0D3D9;
-$fontColor: rgba(0,0,0,1);
-$success:#32CD32 ;
 
 header{
     width:100%;
@@ -18,7 +16,7 @@ header{
     background-image: url('../../assets/img/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 97%;
+    background-size: 100%;
     position: relative;
 }
 
