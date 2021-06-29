@@ -1,14 +1,15 @@
+import React, { useState } from 'react'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+
 import './footer.scss';
-import React,{useState} from 'react'
-import {FaLinkedin} from 'react-icons/fa'
-import {FaWhatsapp} from 'react-icons/fa'
-import {FaGithub} from 'react-icons/fa'
 
 export default function () {
 
-    const [name,setName] =useState('') 
-    const [email,setEmail] =useState('')
-    const [msg,setMsg] =useState('') 
+    const [name, setName] = useState('') 
+    const [email, setEmail] = useState('')
+    const [msg, setMsg] = useState('') 
     
     return (
         <footer>

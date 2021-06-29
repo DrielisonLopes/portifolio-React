@@ -1,6 +1,6 @@
 import './projetos.scss';
 import React from 'react';
-
+//cards
 import reactCard1 from '../../assets/cards/reactCard1.png';
 import reactCard2 from '../../assets/cards/reactCard2.jpeg';
 import reactCard3 from '../../assets/cards/reactCard3.png';
@@ -10,6 +10,14 @@ import card3 from '../../assets/cards/card3.png';
 import card4 from '../../assets/cards/card4.png';
 import card5 from '../../assets/cards/card5.png';
 import card6 from '../../assets/cards/card6.png';
+//icones
+import icon1 from '../../assets/icones/html.png';
+import icon2 from '../../assets/icones/css.png';
+import icon3 from '../../assets/icones/javascript.png';
+import icon4 from '../../assets/icones/react.png';
+import icon5 from '../../assets/icones/typescript.png';
+import icon6 from '../../assets/icones/node-js.png';
+import icon7 from '../../assets/icones/bootstrap.png';
 
 export default () => {
     return (
@@ -18,7 +26,7 @@ export default () => {
                 <h2 >Projetos em React</h2>
 
                 <div class="container">
-                    <div class="cards">                
+                    <div class="cards">
                             <div class="card" >
                                 <img src={reactCard1} alt={"reactCard1"}/>
                                 <div class="content">
@@ -31,8 +39,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="http://reactquiz.drielisonlopes.vercel.app/" target="_blank">
-                                            Confira    
-                                        </a>                           
+                                            Confira
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -49,8 +57,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="http://movelax.vercel.app/" target="_blank">
-                                            Confira    
-                                        </a>                           
+                                            Confira
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +75,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="https://github.com/DrielisonLopes/podcastr" target="_blank">
-                                            Repositório    
-                                        </a>                           
+                                            Repositório
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +86,7 @@ export default () => {
                 <h2 >Projetos Gerais</h2>
 
                 <div class="container">
-                    <div class="cards">                
+                    <div class="cards">
                             <div class="card" >
                                 <img src={card1} alt={"card1"}/>
                                 <div class="content">
@@ -91,8 +99,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="http://zealous-clarke-7e9d31.netlify.app/" target="_blank">
-                                            Confira    
-                                        </a>                           
+                                            Confira
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -109,8 +117,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="https://fcamasquad3.github.io/calculadora-mecanica/" target="_blank">
-                                            Confira    
-                                        </a>                           
+                                            Confira
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -127,8 +135,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="https://codepen.io/drielisonlopes" target="_blank">
-                                            Confira    
-                                        </a>                           
+                                            Confira
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -145,8 +153,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="https://drielisonlopes.github.io/Git_GitHubCLASS/" target="_blank">
-                                            Confira    
-                                        </a>                           
+                                            Confira
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -163,8 +171,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="http://oquefazerna-quarentena.surge.sh/index.html" target="_blank">
-                                            Confira    
-                                        </a>                           
+                                            Confira
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -181,8 +189,8 @@ export default () => {
                                         </p>
                                     <div class="btn-more">
                                         <a href="https://determined-wiles-21aef7.netlify.app/" target="_blank">
-                                            Confira    
-                                        </a>                           
+                                            Confira
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +201,19 @@ export default () => {
                         <div class="link"><a href="https://www.linkedin.com/posts/drielison-lopes_setup-investidores-sonhos-activity-6791744870865285120-3u7D" target="_blank">📝 Artigo: O quanto você tem investido nos seus sonhos?</a></div>
                         <div class="link"><a href="https://www.notion.so/Resumo-React-310d3604856f4c97ac4ca66154ff29ef" target="_blank">⚛ Resumo que fiz sobre React</a></div>
                     </div>
-                </div>            
+                </div>
+                    <br/>
+                    MINHAS SKILLS
+                    <br/>
+                <div class="icons">
+                    <img src={icon1} alt={"icon1"}/>
+                    <img src={icon2} alt={"icon2"}/>
+                    <img src={icon3} alt={"icon3"}/>
+                    <img src={icon4} alt={"icon4"}/>
+                    <img src={icon5} alt={"icon5"}/>
+                    <img src={icon6} alt={"icon6"}/>
+                    <img src={icon7} alt={"icon7"}/>
+                </div>
             </section>
         </>
     )
