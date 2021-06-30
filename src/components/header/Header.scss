@@ -23,21 +23,6 @@ header{
 .list .listNetworks{
     display: flex;
     align-items: center;
-    @media screen and (max-width: 768px) {
-        border-top: $secondaryColor solid 1px;
-        justify-content: space-evenly;  
-
-        & li{
-            margin: 0 ;
-        }
-    }
-    @media (max-width:260px){
-            flex-direction: column;
-        }
-        @media (min-width: 769px){
-            border-left: $secondaryColor solid 1px;
-            justify-content: space-between;
-        }
 }
 
 nav ul h1 a{
@@ -53,61 +38,16 @@ nav ul h1{
     margin: 5px -2rem;
 }
 
-.hamburger{
-    cursor: pointer;
-    display:none;
-    height: 25px;
-    width: 25px;
-    color: $secondaryColor ;
-    position: relative;
-    top: 10px;
-    right:10px;
-    @media screen and (max-width: 768px){
-        display:block  !important;
-    }
-}
-
-.hamburger:active {
-    outline: solid 1px $secondaryColor;
-}
-
 nav {
     position: fixed;
     top:0;
     width:100%;
-    transition: .5s ;
+    transition: .5s;
     z-index: 2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1 !important;
-        @media screen and (max-width: 768px){
-            height:45px;
-        }
-}
-
-.listBg{
-    display:flex;
-    align-items: center;
-    @media screen and (max-width: 768px){
-        height: 100vh;
-        width: 100%;
-        z-index: 3;
-        position: absolute;
-        display:flex;
-    }
-}
-
-nav li{
-    @media (min-width: 769px){
-        margin: auto 0
-    }
-}
-
-.active{
-    @media screen and (max-width: 768px){
-        left: 0
-    }
 }
 
 .scroll-nav .active, .scroll-nav .list{
@@ -116,29 +56,6 @@ nav li{
 
 .scroll-nav  {
     background:$primaryColor;
-}
-
-// Dark mode
-.darkNav .scroll-nav .active, .darkNav .scroll-nav .list{
-    background:$darkMode;
-}
-
-.darkNav .scroll-nav  {
-    background:$darkMode;
-}
-
-.darkNav a, .darkNav .hamburger{
-    color: $fourthColor
-}
-
-.scroll-nav .list{
-    @media (min-width: 769px){
-    background: none !important;
-    }
-}
-
-.scroll-nav h1 a, .scroll-nav .hamburger{
-    color: $secondaryColor !important
 }
 
 nav ul{ 
@@ -167,9 +84,6 @@ nav ul{
 
 nav ul li{
     padding: 0 20px;
-    @media screen and (max-width: 768px){
-        padding: 10px !important;
-    }
 }
 
 nav li a{
@@ -179,16 +93,55 @@ nav li a{
     transition: .2s;
     color : $thirdColor;
     &:hover{
-        color: $thirdColor
+        color: $thirdColor;
     }
 }
 .contact-img{
     color: $secondaryColor;
     height: 30px;
     width: 30px;
-    margin:10px
+    margin:10px;
 }
 
 nav ul .listNetworks li{
-    padding:5px
+    padding:5px;
+}
+
+@media(max-width: 1002px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media(max-width: 880px) {
+    html {
+        font-size: 87.50%;
+    }
+    .message {
+        width: 35rem;
+        margin: 0 1rem;
+    }
+}
+
+@media(max-width: 770px) {
+    html {
+        font-size: 85.50%;
+    }
+    .list {
+        display: inline-block;
+        width: 100%;
+        display:flex;
+        align-items: center;
+
+        li a p {
+            display: none;
+        }
+    }
+    .App-logo {
+        display: none;
+    }
+
+    .header {
+        display: inline-block;
+    }
 }

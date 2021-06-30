@@ -76,7 +76,7 @@ a:link {
 .btn-more {
     text-align: right;
     margin: 1.5rem;
-    color: red;
+    color: rgb(173, 74, 7);
 }
 
 .extra-links {
@@ -92,4 +92,23 @@ a:link {
     height: 7%;
     width: 7%;
     margin: 0 1.7rem;
+}
+
+@media(max-width: 770px) {
+    html {
+        font-size: 87.50%;
+    }
+    .card {
+        width: 45%;
+    }
+}
+
+
+@media(max-width: 520px) {
+    html {
+        font-size: 85.50%;
+    }
+    .card {
+        width:100%;
+    }
 }
