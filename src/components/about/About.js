@@ -9,7 +9,7 @@ export default () => {
                 <div className='about-container'>
                 <img src={img} alt='currículo'/>
                 </div>
-            <h2>Hello véi,</h2>
+            <h2>Hello World🌎,</h2>
             <p>
                 Técnico em química, assessor de vendas, gerente digital, vivência 
                 em área industrial, supervisor de faturamento e experiência no exterior. Foram todas as áreas que ganhei
