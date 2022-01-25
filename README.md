@@ -26,7 +26,7 @@ Pode rodar com `yarn start` e ver no seu browser através da porta [http://local
 
 ## 👨‍💻 Deploy
 
-Você pode visualizar o projeto através [desse link](https://hardcore-pasteur-3534e2.netlify.app/).
+Você pode visualizar o projeto através [desse link](http://www.drielisonlopes.com/).
 
 ---
 
