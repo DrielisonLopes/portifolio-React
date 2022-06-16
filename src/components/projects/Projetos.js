@@ -26,7 +26,9 @@ export default () => {
   return (
     <>
       <section id="projects" className="projects">
-        <h2>Projetos em React</h2>
+        <h1 class="pojetosText">PROJETOS</h1>
+
+        <h2>React</h2>
 
         <div className="container">
           <div className="cards">
@@ -92,7 +94,7 @@ export default () => {
           </div>
         </div>
 
-        <h2>Projetos Gerais</h2>
+        <h2>Geral</h2>
 
         <div className="container">
           <div className="cards">
@@ -124,7 +126,7 @@ export default () => {
                   especilaistas com a finalidade de garantir sua dignidade.
                 </p>
                 <div className="btn-more">
-                  <a href="mulherpresente.somee.com/" target="_blank">
+                  <a href="http://mulherpresente.somee.com/" target="_blank">
                     Confira
                   </a>
                 </div>
