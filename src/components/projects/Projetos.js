@@ -4,6 +4,8 @@ import React from 'react';
 import reactCard1 from '../../assets/cards/reactCard1.png';
 import reactCard2 from '../../assets/cards/reactCard2.jpeg';
 import reactCard3 from '../../assets/cards/reactCard3.png';
+import card00 from '../../assets/cards/card00.jpg';
+import card0 from '../../assets/cards/card0.png';
 import card1 from '../../assets/cards/card1.png';
 import card2 from '../../assets/cards/card2.png';
 import card3 from '../../assets/cards/card3.png';
@@ -27,6 +29,43 @@ export default () => {
 
                 <div className="container">
                     <div className="cards">
+
+                    <div className="card" >
+                                <img src={card0} alt={"card0"}/>
+                                <div className="content">
+                                    <div className="title">
+                                        <p className="card-title">Vamos Viajar</p>
+                                    </div>
+                                        <p>
+                                            Esse projeto o Prof Drielison fez com muito carinho para
+                                            sua primeira turma de formação de Desenvolvedores Web.
+                                        </p>
+                                    <div className="btn-more">
+                                        <a href="" target="_blank">
+                                            Confira
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card" >
+                                <img src={card00} alt={"card00"}/>
+                                <div className="content">
+                                    <div className="title">
+                                        <p className="card-title">Mulher Presente</p>
+                                    </div>
+                                        <p>
+                                            Surge para conectar mulheres em situação de vunerabilidade
+                                            com especilaistas com a finalidade de garantir sua dignidade.
+                                        </p>
+                                    <div className="btn-more">
+                                        <a href="mulherpresente.somee.com/" target="_blank">
+                                            Confira
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="card" >
                                 <img src={reactCard1} alt={"reactCard1"}/>
                                 <div className="content">
