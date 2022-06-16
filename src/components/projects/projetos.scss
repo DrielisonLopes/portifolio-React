@@ -9,6 +9,10 @@ main {
         }
 }
 
+body {
+    background: #f4f4f9;
+}
+
 div p {
     margin: 0 2rem;
 }
@@ -77,6 +81,11 @@ a:link {
     text-align: right;
     margin: 1.5rem;
     color: rgb(173, 74, 7);
+}
+
+a:hover {
+    color: rgb(218, 90, 44);
+    transition: 0.5s;
 }
 
 .extra-links {
