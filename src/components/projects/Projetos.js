@@ -9,6 +9,7 @@ import card0 from "../../assets/cards/card0.png";
 import card1 from "../../assets/cards/card1.png";
 import card2 from "../../assets/cards/card2.png";
 import card3 from "../../assets/cards/card3.png";
+import card31 from "../../assets/cards/card31.png";
 import card4 from "../../assets/cards/card4.png";
 import card5 from "../../assets/cards/card5.png";
 import card6 from "../../assets/cards/card6.png";
@@ -184,6 +185,24 @@ export default () => {
                 <div className="btn-more">
                   <a href="https://codepen.io/drielisonlopes" target="_blank">
                     Confira
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="card">
+              <img src={card31} alt={"card31"} />
+              <div className="content">
+                <div className="title">
+                  <p className="card-title">Little Juice</p>
+                </div>
+                <p>
+                  Projeto criado no Hackathon da FCamara com objetivo de
+                  fazer os funcionários trabalharem de forma híbrida.
+                </p>
+                <div className="btn-more">
+                  <a href="https://github.com/DrielisonLopes/littleJuice" target="_blank">
+                    Repositório
                   </a>
                 </div>
               </div>
