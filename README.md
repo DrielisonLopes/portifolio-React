@@ -1,13 +1,13 @@
 <p align="center">
+  <a href="">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="portfolio" src=".github/my-react.jpeg" width="100%">
+  <img alt="portfolio" src=".github/my-react.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -26,7 +26,7 @@ Pode rodar com `yarn start` e ver no seu browser através da porta [http://local
 
 ## 👨‍💻 Deploy
 
-Você pode visualizar o projeto através [desse link](http://www.drielisonlopes.com/).
+Você pode visualizar o projeto através [desse link](https://portifolio-react-drielisonlopes.vercel.app/).
 
 ---
 
